@@ -65,20 +65,21 @@ body{
 .navigation{
     visibility: hidden;
 }
+
 .mobile-navigation{
     position: absolute;
     height: 100%;
-    width: 70%;
+    width: 0;
     top: 0;
-    left: 30%;
+    left: 0;
     padding-top: 3em;
     background-color: #d9d9d9;
+    transition: width 2s;
 }
 
 .mobile-navigation li{
     clear: right;
     color: #A11E1E;
-    /* text-decoration: underline black; */
     margin: 0 0 2em 1.5em;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
