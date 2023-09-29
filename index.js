@@ -1,3 +1,18 @@
+// grab the section container
+// created the data array
+// import the data array
+// wrote the map function skeleton
+// created the suppossed elements to hold the values
+// give the elements the suppossed attributes
+// gave the respective datas to respective elements
+// append the elements to the div
+// conditionally appended the buttons with respect to the presence of button property on the objects in the array
+// appended the div to the section
+// wrapped the map method with a function
+// called the function;
+
+
+
 import { services } from "./data.js";
 
 let mobile = document.querySelector('.mobile-navigation')
